@@ -9,18 +9,15 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "*", // Change this to your frontend URL after deployment
-    methods: ["GET", "POST"],
-  },
+    origin: "https://cybergaurd.onrender.com", // Replace with frontend URL
+    methods: ["GET", "POST"]
+  }
 });
+
 
 // Middleware
 app.use(express.json());
 app.use(cors());
-
-// Serve static files from "public"
-const __dirname = path.resolve();
-app.use(express.static(path.join(__dirname, "public"))); 
 
 // Proxy API for translation
 app.post("/translate", async (req, res) => {
@@ -64,13 +61,8 @@ io.on("connection", (socket) => {
   });
 });
 
-// Serve frontend for all routes
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "index.html"));
-});
+const PORT = process.env.PORT || 5000; // Render assigns its own port
 
-// Start server
-const PORT = process.env.PORT || 10000;
 server.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
 });
