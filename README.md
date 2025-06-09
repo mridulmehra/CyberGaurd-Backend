@@ -3,6 +3,10 @@
 Demo Video : https://drive.google.com/file/d/1ofw2UG9zSTDHQlLZfW0yB6l4DCy4mP6l/view?usp=sharing
 
 
+![Uploading image.png…]()
+
+
+
 A real-time chat application with content moderation and toxicity scoring.
 
 ## Tech Stack
