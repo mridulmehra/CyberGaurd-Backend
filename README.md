@@ -18,7 +18,7 @@ A real-time chat application with content moderation and toxicity scoring.
 
 1. Clone the repository:
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/mridulmehra/Toxic-Tamer.git
    cd ToxicTamer
    ```
 
@@ -67,6 +67,3 @@ A real-time chat application with content moderation and toxicity scoring.
 - User authentication and session management
 - Responsive UI with Radix UI and Tailwind CSS
 
-## License
-
-MIT 
