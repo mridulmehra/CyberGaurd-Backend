@@ -4,9 +4,9 @@ A real-time chat application with content moderation and toxicity scoring.
 
 ## Tech Stack
 
-- **Backend:** Node.js, Express.js, WebSocket, PostgreSQL, Drizzle ORM, Passport.js, express-session
-- **Frontend:** React, Vite, Radix UI, Tailwind CSS, Framer Motion, react-hook-form, react-icons, recharts
-- **Dev Tools:** TypeScript, tsx, esbuild, drizzle-kit, PostCSS, autoprefixer
+- **Backend:** Node.js, Express.js, WebSocket, PostgreSQL, Passport.js.
+- **Frontend:** React, Vite, Radix UI, Tailwind CSS, 
+- **Dev Tools:** TypeScript, tsx, PostCSS, autoprefixer
 
 ## Prerequisites
 
