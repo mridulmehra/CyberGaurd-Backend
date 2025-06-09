@@ -3,7 +3,7 @@
 Demo Video : https://drive.google.com/file/d/1ofw2UG9zSTDHQlLZfW0yB6l4DCy4mP6l/view?usp=sharing
 
 
-![Uploading image.png…]()
+<img width="1470" alt="Screenshot 2025-06-09 at 1 27 54 PM" src="https://github.com/user-attachments/assets/4967225a-df0c-473c-bef5-f74117c22031" />
 
 
 
